@@ -67,3 +67,9 @@ git clone https://github.com/your-username/AI-SOC-Report.git
 cd AI-SOC-Report
 Install dependencies
 pip install -r requirements.txt
+
+2. **The data**
+For testing, you can use any publicly available authentication log datasets, e.g.:
+
+- [Kaggle RBA Dataset](https://www.kaggle.com/datasets/rba/realistic-banking-authentication)
+
