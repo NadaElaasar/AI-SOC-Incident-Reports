@@ -1,0 +1,46 @@
+
+================================================================================
+                            INCIDENT RESPONSE REPORT
+================================================================================
+
+Report ID: IR-20260405-163054
+Generated: 2026-04-05 16:30:54
+Severity Level: CRITICAL
+
+================================================================================
+1. EXECUTIVE SUMMARY
+================================================================================
+
+Total events analyzed: 300,000
+Unique IP addresses: 158,576
+Failed login attempts: 180,143
+Failure rate: 60.05%
+Suspicious IPs detected: 12195
+Brute force suspects: 71940
+
+================================================================================
+2. TOP SUSPICIOUS IP ADDRESSES
+================================================================================
+
+10.3.205.197: 4278 failures out of 4278 attempts (100.0%)
+23.137.225.33: 3135 failures out of 3135 attempts (100.0%)
+10.3.205.196: 2549 failures out of 2549 attempts (100.0%)
+10.3.205.195: 2275 failures out of 2275 attempts (100.0%)
+10.3.205.194: 1714 failures out of 1714 attempts (100.0%)
+10.3.205.193: 1452 failures out of 1452 attempts (100.0%)
+10.3.205.192: 957 failures out of 957 attempts (100.0%)
+10.3.205.191: 822 failures out of 822 attempts (100.0%)
+10.0.181.232: 743 failures out of 743 attempts (100.0%)
+170.39.78.106: 646 failures out of 646 attempts (100.0%)
+
+================================================================================
+3. RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE: Block suspicious IPs, enable MFA, implement CAPTCHA
+SHORT-TERM: Review patterns, reset compromised passwords
+LONG-TERM: Rate limiting, WAF deployment, policy review
+
+================================================================================
+                            END OF REPORT
+================================================================================
